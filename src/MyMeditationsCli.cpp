@@ -1,6 +1,5 @@
-#include "Meditation.h"
-#include "Database.h"
-
+#include <App.h>
 int main() { 
-	Meditation meditation("Hello World", "This is a test"); 
+	App app;
+	app.run();
 }
